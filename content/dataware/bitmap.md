@@ -65,8 +65,22 @@ Bit-Map算法具有效率高，节省空间的特点，适用于对大量数据�
 
 我想计算是**dev，并且使用iPhone**的人群
 
-![人群且运算](./img/people_and_cal.png)
+![people_and_cal](./img/people_and_cal.png)
 
+我想计算**male 或 00s**的人群
+
+![male_or_00s](./img/male_or_00s.png)
+
+由此可以发现，使用位进行计算的速度是非常快，计算的效率非常高
+
+我想计算 **not 90s**的人群
+从age的表中可以知道，90s只有AB两人，00s则有C一人。not 90s人群，也就是计算出C来。如果直接计算not 90s，这样就会导致一个问题，具体结果如下：
+
+
+> [!IMPORTANT]
+> 直接计算不太可行，因此还要借助一个全量用户来进行辅助计算，**90s XOR ALL = not 90s**，也就是异或计算：**相同为0，不同为1**
+
+# bitmap的优化
 
 
 
