@@ -1,12 +1,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://quartz.jzhao.xyz/daily/202501w2</loc>
-    <lastmod>2025-01-07T11:44:38.578Z</lastmod>
+    <lastmod>2025-01-14T06:58:05.381Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/daily/202501w3</loc>
+    <lastmod>2025-01-16T02:36:00.709Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/daily/test</loc>
+    <lastmod>2025-01-16T01:52:23.413Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/dataware/bitmap</loc>
-    <lastmod>2025-01-07T15:16:11.149Z</lastmod>
+    <lastmod>2025-01-25T03:42:14.027Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/dataware/user_profile_system</loc>
     <lastmod>2025-01-07T12:28:13.877Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/docker/docker_network/docker_network</loc>
+    <lastmod>2025-01-25T03:48:51.619Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/doris/1_prepare_for_daris_manager</loc>
+    <lastmod>2025-01-09T11:00:45.879Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz//</loc>
     <lastmod>2025-01-07T15:27:49.199Z</lastmod>
