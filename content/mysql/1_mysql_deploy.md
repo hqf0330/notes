@@ -1,5 +1,6 @@
 ---
 title: MySQL的部署安装
+draft: false
 tags:
     - mysql
     - DBA

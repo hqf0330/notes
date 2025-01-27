@@ -6,17 +6,47 @@
       <description>Last 10 notes on 🪴 Quartz 4.0</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>2025重点需要完成事项</title>
+    <link>https://quartz.jzhao.xyz/daily/202502w1</link>
+    <guid>https://quartz.jzhao.xyz/daily/202502w1</guid>
+    <description>TODO 凯叔实时标签梳理 凯叔荷鲁斯之眼专项 梳理拓展业务指标，目的是直观发现出业务上的问题 凯叔软著材料收尾 凯叔运营中心后台数据交换搭建 东升日志接收服务和埋点验收 东升报表建设与开发 .</description>
+    <pubDate>Sat, 08 Feb 2025 05:25:35 GMT</pubDate>
+  </item><item>
+    <title>Welcome to BingHu House</title>
+    <link>https://quartz.jzhao.xyz//</link>
+    <guid>https://quartz.jzhao.xyz//</guid>
+    <description>Doris 0_om_doris.md 1_prepare_for_daris_manager.md Docker 1_docker_network.md K8s 1_k8s_基础架构.md 2_k8s_网络.md.</description>
+    <pubDate>Mon, 27 Jan 2025 08:43:34 GMT</pubDate>
+  </item><item>
+    <title>MySQL的部署安装</title>
+    <link>https://quartz.jzhao.xyz/mysql/1_mysql_deploy</link>
+    <guid>https://quartz.jzhao.xyz/mysql/1_mysql_deploy</guid>
+    <description>MySQL体系架构 MySQL存储引擎 Linux安装MySQL.</description>
+    <pubDate>Mon, 27 Jan 2025 05:51:32 GMT</pubDate>
+  </item><item>
+    <title>bitmap--the killer of User Profile System</title>
+    <link>https://quartz.jzhao.xyz/dataware/bitmap</link>
+    <guid>https://quartz.jzhao.xyz/dataware/bitmap</guid>
+    <description>什么是bitmap Bit-Map算法又名位图算法，其原理是，使用下标代替数值或特定的意义，使用这个位为0或者1代表特性是否存在 Bit-Map算法具有效率高，节省空间的特点，适用于对大量数据进行去重，查询等 NOTE 对于某个标签，给出一个长度为n的数组，初始化都为0，如果来了一个用户或者一个用户符合当 前标签，我们就将这个数组的某个位置置为1。基于当前标签进行统计某些值的时候就很快 ...</description>
+    <pubDate>Mon, 27 Jan 2025 03:28:09 GMT</pubDate>
+  </item><item>
+    <title>202501w3</title>
+    <link>https://quartz.jzhao.xyz/daily/202501w3</link>
+    <guid>https://quartz.jzhao.xyz/daily/202501w3</guid>
+    <description>Highlight 日志接收服务，FastApi版本开发 TODO 东升基础环境搭建 实时标签——方案梳理 整体的飞书告警功能 DONE 新用户承接module_id修改确认 对数据，尤其三方账单部分 用户标签开发 人群包上传太大 东升的数据需求拆解分析文档输出 horus eye的数据交换建设完毕 ...</description>
+    <pubDate>Mon, 27 Jan 2025 03:15:52 GMT</pubDate>
+  </item><item>
+    <title>Installation and Deployment Doris Manager</title>
+    <link>https://quartz.jzhao.xyz/doris/1_prepare_for_daris_manager</link>
+    <guid>https://quartz.jzhao.xyz/doris/1_prepare_for_daris_manager</guid>
+    <description>下载Doris Manager.</description>
+    <pubDate>Mon, 27 Jan 2025 03:12:06 GMT</pubDate>
+  </item><item>
     <title>Doris的常见问题与解决思路</title>
     <link>https://quartz.jzhao.xyz/doris/0_om_doris</link>
     <guid>https://quartz.jzhao.xyz/doris/0_om_doris</guid>
     <description>Doris Manager的安装部署 首先根据下面的内容安装和部署Doris Manager 1_prepare_for_daris_manager.md.</description>
     <pubDate>Mon, 27 Jan 2025 03:09:59 GMT</pubDate>
-  </item><item>
-    <title>Installation and Deployment Doris Manager</title>
-    <link>https://quartz.jzhao.xyz/doris/1_prepare_for_daris_manager</link>
-    <guid>https://quartz.jzhao.xyz/doris/1_prepare_for_daris_manager</guid>
-    <description></description>
-    <pubDate>Mon, 27 Jan 2025 03:05:32 GMT</pubDate>
   </item><item>
     <title>docker network</title>
     <link>https://quartz.jzhao.xyz/docker/1_docker_network</link>
@@ -24,47 +54,17 @@
     <description>容器通信 当项目大规模使用 Docker 时，容器通信的问题也就产生了。 要解决容器通信问题，必须先了解很多关于网络的知识。 我们需要了解Docker 的网络知识，以满足更高的网络需求。 1. 默认网络 装 Docker 以后，会默认创建三种网络，可以通过 docker network ls 查看 [root@localhost ~]# docker network ls NETWORK ID NAME DRIVER SCOPE f869d1c3534a bridge bridge local 1543d4d4b945 host host local d06a4fca4238 none null local 网络模式简介bridge为每一个容器分配、设置 IP 等，并将容器连接到一个 docker0 虚拟网桥，默认为该模式。host容器将不会虚拟出自己的网卡，配置自己的 IP 等，而是使用宿主机的 IP 和端口。none容器有独立的 Network namespace，但并没有对其进行任何网络设置，如分配 veth pair 和网桥连接，IP 等。container新创建的容器不会创建自己的网卡和配置自己的 IP，而是和一个指定的容器共享 IP、端口范围等。 1.1 bridge 网络模式 在该模式中，Docker 守护进程创建了一个虚拟以太网桥 docker0，新建的容器会自动桥接到这个接口， 附加在其上的任何网卡之间都能自动转发数据包。 默认情况下，守护进程会创建一对对等虚拟设备接口 veth pair，将其中一个接口设置为容器的 eth0 接口（容器的网卡），另一个接口放置在宿主机的命名空间中，以类似 vethxxx 这样的名字命名， 从而将宿主机上的所有容器都连接到这个内部网络上。 veth是linux的一种虚拟网络设备，它有点类似于两张网卡中间用一条网线连着，veth设备总是成对出现， 通常用来连 不同网络命名空间（下面开始简称NS），一端连着NS1的内核协议栈，另一端连着NS2的内核协议栈 ，一端发送的数据会立刻被另一端接收。 比如我运行一个基于 busybox 镜像构建的容器 bbox01，查看 ip addr： busybox 被称为嵌入式 Linux 的瑞士军刀，整合了很多小的 unix 下的通用功能到一个小的可执行文件中 然后宿主机通过 ip addr 查看信息如下： 通过以上的比较可以发现，证实了之前所说的：守护进程会创建一对对等虚拟设备接口 veth pair，将其中一个接口设置为容器的 eth0 接口（容器的网卡），另一个接口放置在宿主机的命名空间中，以类似 vethxxx 这样的名字命名。 同时，守护进程还会从网桥 docker0 的私有地址空间中分配一个 IP 地址和子网给该容器，并设置 docker0 的 IP 地址为容器的默认网关。也可以安装 yum install -y bridge-utils 以后，通过 brctl show 命令查看网桥信息。 对于每个容器的 IP 地址和 Gateway 信息，我们可以通过 docker inspect 容器名称|ID 进行查看，在 NetworkSettings 节点中可以看到详细信息。 我们可以通过 docker network inspect bridge 查看所有 bridge 网络模式下的容器，在 Containers 节点中可以看到容器名称。 关于 bridge 网络模式的使用，只需要在创建容器时通过参数 --net bridge 或者 --network bridge 指定即可，当然这也是创建容器默认使用的网络模式，也就是说这个参数是可以省略的。 Bridge 桥接模式的实现步骤主要如下： Docker Daemon 利用 veth pair 技术，在宿主机上创建一对对等虚拟网络接口设备，假设为 veth0 和 veth1。而 veth pair 技术的特性可以保证无论哪一个 veth 接收到网络报文，都会将报文传输给另一方。 Docker Daemon 将 veth0 附加到 Docker Daemon 创建的 docker0 网桥上。保证宿主机的网络报文可以发往 veth0； Docker Daemon 将 veth1 添加到 Docker Container 所属的 namespace 下，并被改名为 eth0。如此一来，宿主机的网络报文若发往 veth0，则立即会被 Container 的 eth0 接收，实现宿主机到 Docker Container 网络的联通性；同时，也保证 Docker Container 单独使用 eth0，实现容器网络环境的隔离性。 1.2 host网络模式 host 网络模式需要在创建容器时通过参数 --net host 或者 --network host 指定； 采用 host 网络模式的 Docker Container，可以直接使用宿主机的 IP 地址与外界进行通信，若宿主机的 eth0 是一个公有 IP，那么容器也拥有这个公有 IP。同时容器内服务的端口也可以使用宿主机的端口，无需额外进行 NAT 转换； host 网络模式可以让容器共享宿主机网络栈，这样的好处是外部主机与容器直接通信，但是容器的网络缺少隔离性。 比如我基于 host 网络模式创建了一个基于 busybox 镜像构建的容器 bbox02，查看 ip addr： 然后宿主机通过 ip addr 查看信息如下： 返回信息一模一样，我们可以通过 docker network inspect host 查看所有 host 网络模式下的容器，在 Containers 节点中可以看到容器名称。 1.3 none网络模式 none 网络模式是指禁用网络功能，只有 lo 接口( local 的简写)，代表 127.0.0.1，即 localhost 本地环回接口。在创建容器时通过参数 --net none 或者 --network none 指定； none 网络模式即不为 Docker Container 创建任何的网络环境，容器内部就只能使用 loopback 网络设备，不会再有其他的网络资源。可以说 none 模式为 Docke Container 做了极少的网络设定，但是俗话说得好“少即是多”，在没有网络配置的情况下，作为 Docker 开发者，才能在这基础做其他无限多可能的网络定制开发。这也恰巧体现了 Docker 设计理念的开放。 比如我基于 none 网络模式创建了一个基于 busybox 镜像构建的容器 bbox03，查看 ip addr： 我们可以通过 docker network inspect none 查看所有 none 网络模式下的容器，在 Containers 节点中可以看到容器名称。 1.4 container网络模式 Container 网络模式是 Docker 中一种较为特别的网络的模式。在创建容器时通过参数 --net container:已运行的容器名称|ID 或者 --network container:已运行的容器名称|ID 指定； 处于这个模式下的 Docker 容器会共享一个网络栈，这样两个容器之间可以使用 localhost 高效快速通信。 Container 网络模式即新创建的容器不会创建自己的网卡，配置自己的 IP，而是和一个指定的容器共享 IP、端口范围等。同样两个容器除了网络方面相同之外，其他的如文件系统、进程列表等还是隔离的。 比如我基于容器 bbox01 创建了 container 网络模式的容器 bbox04，查看 ip addr： 宿主机的 ip addr 信息如下： 通过以上测试可以发现，Docker 守护进程只创建了一对对等虚拟设备接口用于连接 bbox01 容器和宿主机，而 bbox04 容器则直接使用了 bbox01 容器的网卡信息。 这个时候如果将 bbox01 容器停止，会发现 bbox04 容器就只剩下 lo 接口了。 然后 bbox01 容器重启以后，bbox04 容器也重启一下，就又可以获取到网卡信息了。 2.</description>
     <pubDate>Mon, 27 Jan 2025 03:05:16 GMT</pubDate>
   </item><item>
-    <title>我是测试</title>
-    <link>https://quartz.jzhao.xyz/k8s/k01</link>
-    <guid>https://quartz.jzhao.xyz/k8s/k01</guid>
-    <description>hahha .</description>
-    <pubDate>Mon, 27 Jan 2025 03:04:18 GMT</pubDate>
+    <title>k8s的架构和概念</title>
+    <link>https://quartz.jzhao.xyz/k8s/1_k8s_%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84</link>
+    <guid>https://quartz.jzhao.xyz/k8s/1_k8s_%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84</guid>
+    <description>本文介绍一下k8s的架构和概念.</description>
+    <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>MySQL的部署安装</title>
-    <link>https://quartz.jzhao.xyz/mysql/1_mysql_deploy</link>
-    <guid>https://quartz.jzhao.xyz/mysql/1_mysql_deploy</guid>
-    <description>MySQL体系架构 MySQL存储引擎 Linux安装MySQL.</description>
-    <pubDate>Sun, 26 Jan 2025 16:04:58 GMT</pubDate>
-  </item><item>
-    <title>bitmap--the killer of User Profile System</title>
-    <link>https://quartz.jzhao.xyz/dataware/bitmap</link>
-    <guid>https://quartz.jzhao.xyz/dataware/bitmap</guid>
-    <description>什么是bitmap Bit-Map算法又名位图算法，其原理是，使用下标代替数值或特定的意义，使用这个位为0或者1代表特性是否存在 Bit-Map算法具有效率高，节省空间的特点，适用于对大量数据进行去重，查询等 NOTE 对于某个标签，给出一个长度为n的数组，初始化都为0，如果来了一个用户或者一个用户符合当 前标签，我们就将这个数组的某个位置置为1。基于当前标签进行统计某些值的时候就很快 ...</description>
-    <pubDate>Sat, 25 Jan 2025 03:42:14 GMT</pubDate>
-  </item><item>
-    <title>202501w3</title>
-    <link>https://quartz.jzhao.xyz/daily/202501w3</link>
-    <guid>https://quartz.jzhao.xyz/daily/202501w3</guid>
-    <description>Highlight 日志接收服务，FastApi版本开发 TODO 东升基础环境搭建 实时标签——方案梳理 整体的飞书告警功能 DONE 新用户承接module_id修改确认 对数据，尤其三方账单部分 用户标签开发 人群包上传太大 东升的数据需求拆解分析文档输出 horus eye的数据交换建设完毕 ...</description>
-    <pubDate>Thu, 16 Jan 2025 02:36:00 GMT</pubDate>
-  </item><item>
-    <title>test</title>
-    <link>https://quartz.jzhao.xyz/daily/test</link>
-    <guid>https://quartz.jzhao.xyz/daily/test</guid>
-    <description> hahha.</description>
-    <pubDate>Thu, 16 Jan 2025 01:52:23 GMT</pubDate>
-  </item><item>
-    <title>202501w2 report</title>
-    <link>https://quartz.jzhao.xyz/daily/202501w2</link>
-    <guid>https://quartz.jzhao.xyz/daily/202501w2</guid>
-    <description>what I have done! 新用户承接的报表和数据迁移 出问题啦，12.31后的数据不更新了，或者200000平台的埋点没上报 人群圈选数据梳理，指标口径文档梳理 1.8 日报 冰湖 昨日进度： 第一期的存算基座搭建和部署方案输出 技术选型并且在自己的服务器上进行部署测试 今日计划： 测试组件 实时找数据 需求，增长看盘数据排查 ...</description>
-    <pubDate>Tue, 14 Jan 2025 06:58:05 GMT</pubDate>
-  </item><item>
-    <title>Welcome to Quartz</title>
-    <link>https://quartz.jzhao.xyz//</link>
-    <guid>https://quartz.jzhao.xyz//</guid>
-    <description>This is a blank Quartz installation. See the documentation for how to get started. I am the toc of my notes!.</description>
-    <pubDate>Tue, 07 Jan 2025 15:27:49 GMT</pubDate>
+    <title>k8s的网络</title>
+    <link>https://quartz.jzhao.xyz/k8s/2_k8s_%E7%BD%91%E7%BB%9C</link>
+    <guid>https://quartz.jzhao.xyz/k8s/2_k8s_%E7%BD%91%E7%BB%9C</guid>
+    <description>详细说说k8s的网络问题.</description>
+    <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -65,11 +65,11 @@ Bit-Map算法具有效率高，节省空间的特点，适用于对大量数据�
 
 我想计算是**dev，并且使用iPhone**的人群
 
-![people_and_cal](./img/people_and_cal.png)
+![people_and_cal](../images/dataware/people_and_cal.png)
 
 我想计算**male 或 00s**的人群
 
-![male_or_00s](./img/male_or_00s.png)
+![male_or_00s](../images/dataware/male_or_00s.png)
 
 由此可以发现，使用位进行计算的速度是非常快，计算的效率非常高
 

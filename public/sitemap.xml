@@ -3,32 +3,38 @@
     <lastmod>2025-01-14T06:58:05.381Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/daily/202501w3</loc>
-    <lastmod>2025-01-16T02:36:00.709Z</lastmod>
+    <lastmod>2025-01-27T03:15:52.792Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/daily/202502w1</loc>
+    <lastmod>2025-02-08T05:25:35.170Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/daily/test</loc>
     <lastmod>2025-01-16T01:52:23.413Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/dataware/bitmap</loc>
-    <lastmod>2025-01-25T03:42:14.027Z</lastmod>
+    <lastmod>2025-01-27T03:28:09.737Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/dataware/user_profile_system</loc>
     <lastmod>2025-01-07T12:28:13.877Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/doris/1_prepare_for_daris_manager</loc>
-    <lastmod>2025-01-27T03:05:32.732Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz//</loc>
-    <lastmod>2025-01-07T15:27:49.199Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/k8s/k01</loc>
-    <lastmod>2025-01-27T03:04:18.687Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/mysql/1_mysql_deploy</loc>
-    <lastmod>2025-01-26T16:04:58.089Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/docker/1_docker_network</loc>
     <lastmod>2025-01-27T03:05:16.373Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/doris/0_om_doris</loc>
     <lastmod>2025-01-27T03:09:59.608Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/doris/1_prepare_for_daris_manager</loc>
+    <lastmod>2025-01-27T03:12:06.508Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz//</loc>
+    <lastmod>2025-01-27T08:43:34.402Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/k8s/1_k8s_%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84</loc>
+    <lastmod>2025-01-27T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/k8s/2_k8s_%E7%BD%91%E7%BB%9C</loc>
+    <lastmod>2025-01-27T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/mysql/1_mysql_deploy</loc>
+    <lastmod>2025-01-27T05:51:32.615Z</lastmod>
   </url></urlset>
