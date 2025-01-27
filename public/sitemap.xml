@@ -14,15 +14,21 @@
     <loc>https://quartz.jzhao.xyz/dataware/user_profile_system</loc>
     <lastmod>2025-01-07T12:28:13.877Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/docker/docker_network</loc>
-    <lastmod>2025-01-26T15:48:54.742Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/doris/1_prepare_for_daris_manager</loc>
-    <lastmod>2025-01-09T11:00:45.879Z</lastmod>
+    <lastmod>2025-01-27T03:05:32.732Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz//</loc>
     <lastmod>2025-01-07T15:27:49.199Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/k8s/k01</loc>
-    <lastmod>2025-01-26T15:41:11.961Z</lastmod>
+    <lastmod>2025-01-27T03:04:18.687Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/mysql/1_mysql_deploy</loc>
+    <lastmod>2025-01-26T16:04:58.089Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/docker/1_docker_network</loc>
+    <lastmod>2025-01-27T03:05:16.373Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/doris/0_om_doris</loc>
+    <lastmod>2025-01-27T03:09:59.608Z</lastmod>
   </url></urlset>
